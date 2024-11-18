@@ -1,0 +1,34 @@
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: 公司名称
+      url: "https://example.com"
+      location: 地点
+      logo: "/images/companies/company-logo.png"
+    positions:
+    - designation: 职位名称
+      start: 2020
+      end: Present
+      responsibilities:
+      - "职责描述 1"
+      - "职责描述 2"
+      - "职责描述 3"
+
+  - company:
+      name: 另一家公司
+      url: "https://example.com"
+      location: 地点
+      logo: "/images/companies/company-logo.png"
+    positions:
+    - designation: 职位名称
+      start: 2018
+      end: 2020
+      responsibilities:
+      - "职责描述 1"
+      - "职责描述 2"

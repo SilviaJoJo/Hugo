@@ -1,0 +1,6 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 4
+  showOnNavbar: true

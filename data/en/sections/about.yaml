@@ -1,0 +1,21 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Software Engineer
+company:
+  name: Duke University
+  url: "https://github.com/SilviaJoJo"
+
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/SilviaJoJo"
+
+enableGitHubEdit: true
+gitHubEdit:
+  baseUrl: "https://github.com/SilviaJoJo/Hugo/edit/main/content"

@@ -1,6 +1,24 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://silviajojo.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+defaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
+
+[params]
+  defaultLanguage = "en"
+  showLanguageSelector = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Use Hugo modules to add theme
 [module]
