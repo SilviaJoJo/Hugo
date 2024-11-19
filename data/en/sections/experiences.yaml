@@ -2,33 +2,110 @@ section:
   name: Experience
   id: experiences
   enable: true
-  weight: 2
+  weight: 3
   showOnNavbar: true
 
 experiences:
   - company:
-      name: 公司名称
-      url: "https://example.com"
-      location: 地点
-      logo: "/images/companies/company-logo.png"
+      name: Duke Quantum Center
+      url: "https://quantum.duke.edu/"
+      location: Durham, NC
     positions:
-    - designation: 职位名称
-      start: 2020
+    - designation: Research Intern
+      start: July 2024
       end: Present
+      supervisor: "Prof. Crystal Noel, Dr. Brad Bondurant"
       responsibilities:
-      - "职责描述 1"
-      - "职责描述 2"
-      - "职责描述 3"
+      - "Developed software interface for EMCCD camera enabling quantum state readout of trapped ions"
+      - "Supported features for camera setup, parameter control, image acquisition, data management, analysis, visualization and noise measurement"
+      - "Optimized acquisition speed to achieve near 0ms acquisition time while maintaining data integrity"
+      - "Integrating ion image readout into ARTIQ quantum control system to improve experimental operations efficiency"
 
   - company:
-      name: 另一家公司
-      url: "https://example.com"
-      location: 地点
-      logo: "/images/companies/company-logo.png"
+      name: Duke University
+      url: "https://ece.duke.edu/"
+      location: Durham, NC
     positions:
-    - designation: 职位名称
-      start: 2018
-      end: 2020
+    - designation: Research Assistant
+      start: May 2024
+      end: Present
+      supervisor: "Prof. Kishor Trivedi"
       responsibilities:
-      - "职责描述 1"
-      - "职责描述 2"
+      - "Conducting extensive literature review on software reliability for AI/ML-involved autonomous driving systems"
+      - "Investigating reliability challenges unique to non-deterministic autonomous systems"
+      - "Researching approaches to improve reliability through combinatorial testing"
+      - "Exploring formal methods like model checking for quantitative dependability assessment of autonomous systems"
+
+  - company:
+      name: Duke University
+      url: "https://ece.duke.edu/"
+      location: Durham, NC
+    positions:
+    - designation: Research Assistant
+      start: Feb 2024
+      end: Present
+      supervisor: "Prof. Rabih Younes"
+      responsibilities:
+      - "Developed the 'Duke Faculty Scheduler' Web App enabling professors to manage course schedules efficiently"
+      - "Implemented features for uploading, online editing and exporting schedules to multiple formats (HTML, CSV, PDF, LaTex)"
+      - "Integrated Firebase for secure user authentication and real-time schedule management functionality"
+      - "Ensured secure access and data synchronization for large user base using React and Firebase"
+
+  - company:
+      name: Duke University
+      url: "https://cs.duke.edu/"
+      location: Durham, NC
+    positions:
+    - designation: Project Lead
+      start: Jan 2024
+      end: May 2024
+      supervisor: "Prof. Jun Yang"
+      responsibilities:
+      - "Implemented core database functionalities with Python, including multi-pass external memory hash join and large-scale aggregation"
+      - "Developed query optimizer using Selinger-style dynamic programming for improved query execution"
+      - "Optimized database performance by over 20% through implementing partial aggregation techniques"
+      - "Built Devil's Database project under Prof. Jun Yang's advisorship using Python, SQL and Docker"
+      
+  - company:
+      name: Chinese Institute for Brain Research
+      url: "https://www.cibr.ac.cn/"
+      location: Beijing, China
+    positions:
+    - designation: Instrument Development Intern
+      start: Oct 2021
+      end: April 2022
+      supervisor: "Dr. Lei Zhang"
+      responsibilities:
+      - "Studied the PCB layouts and circuit board design using Altium Designer for the development of an animal behavior monitoring device"
+      - "Programmed Arduino Nano chip to modulate light signal frequency and assembled final device"
+      - "Conducted product testing, authored error reports, and implemented safety improvements"
+      - "Researched piezoelectric printing technology and identified optimal parameters for micro-dispensing print heads"
+      - "Fabricated glass electrodes using Sutter P-97, refined tips with microforge technique"
+      - "Built testing platform and successfully validated 2 implementation plans for print heads"
+
+  - company:
+      name: Renmin University of China
+      url: "http://www.phys.ruc.edu.cn/"
+      location: Beijing, China
+    positions:
+    - designation: Research Assistant
+      start: Sep 2020
+      end: June 2021
+      supervisor: "Prof. Peng Cai"
+      responsibilities:
+      - "Developed a graphical user interface using LabVIEW to control Lock-In Amplifier (SR830)"
+      - "Implemented data acquisition and visualization features for experimental measurements"
+      - "Built instrument control functionality to enable precise control of the Lock-In Amplifier"
+
+  - company:
+      name: Institute of Physics, Chinese Academy of Sciences
+      url: "http://english.iop.cas.cn/"
+      location: Beijing, China
+    positions:
+    - designation: Research Intern
+      start: Jul 2019
+      end: Sep 2019
+      supervisor: "Prof. Xinghua Lu"
+      responsibilities:
+      - "Collaborated on simulating the large-scale STM environment on a small-scale STM system"
+      - "Tested and enhanced a LabVIEW program to control four motors for precise facula focusing on STM tip"
