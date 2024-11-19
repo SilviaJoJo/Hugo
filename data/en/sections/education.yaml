@@ -1,4 +1,3 @@
-# 教育经历部分的标题
 section:
   name: Education
   id: education
@@ -7,37 +6,65 @@ section:
   showOnNavbar: true
 
 degrees:
-  - name: 学位名称
-    icon: fa-graduation-cap  # 图标
-    timeframe: 2018-2022
-    institution:
-      name: 学校名称
-      url: "https://www.university.edu"  # 学校网站链接
-    grade: # 可选
-      scale: GPA 4.0
-      achieved: 3.8
-    takenCourses: # 可选，主要课程
-      collapseAfter: 3  # 显示前3门课程，其他折叠
-      courses:          # 使用 courses 子项列出具体课程
-        - name: 课程名称 1
-          code: CS101
-        - name: 课程名称 2
-          code: CS102
-        - name: 课程名称 3
-          code: CS103
-        - name: 课程名称 4
-          code: CS104
-    publications: # 可选，发表的论文
-      - title: 论文标题
-        url: "论文链接"
-    extracurricularActivities: # 可选，课外活动
-      - 活动描述 1
-      - 活动描述 2
-
-  # 你可以添加多个教育经历，只需要复制上面的结构
-  - name: 另一个学位
+  - name: Duke University
     icon: fa-graduation-cap
-    timeframe: 2014-2018
+    timeframe: 2022-2024
     institution:
-      name: 另一所学校
-      url: "https://www.another-university.edu"
+      name: Duke University
+      url: "https://www.duke.edu"
+    grade:
+      scale: GPA
+      achieved: 3.87
+      outOf: 4.0
+    takenCourses:
+      collapseAfter: 3
+      courses:
+        - name: Fundamental Computer System & Engineering (Computer Systems, Computer Architecture)
+        - name: Programming, Data Structures & Algorithms in C++
+        - name: Algorithms (Discrete Math, Algorithms, CS Theory)
+        - name: Engineering Robust Server Software (Full-stack projects)
+        - name: Systems Programming & Engineering (OS, Computer Networks)
+        - name: Random Signals and Noises (Linear Algebra, Probability, Statistics)
+        - name: Human-Centered Computing (UI & UX Design)
+        - name: Database Systems
+        - name: Towards More Reliable Software (Software Engineering, Testing, Verification)
+    poster:
+      - title: Design of a centralized app that Makes Duke students' life better
+        # url: "/images/posters/Duke-poster.png"
+    extracurricularActivities:
+      - To be added
+      - To be added
+
+  - name: Renmin University of China
+    icon: fa-graduation-cap
+    timeframe: 2017-2022
+    institution:
+      name: Renmin University of China
+      url: "https://www.ruc.edu.cn"
+    grade:
+      scale: GPA
+      achieved: 3.75
+      outOf: 4.0
+    takenCourses:
+      collapseAfter: 3
+      courses:
+        - name: Mechanics, Classical Mechanics, Thermology, Optics, Electromagnetism
+        - name: Atomic Physics, Quantum Mechanics, Solid State Physics, Thermodynamics & Statistical Physics
+        - name: Fundamentals of Materials Science, Material Physics, Phase Diagram and Phase Transition
+        - name: Experimental Physics, Modern Physics Lab Experiments, Experimental Methods in Materials Physics
+        - name: Advanced Mathematics, Linear Algebra, Probability and Statistics
+        - name: Complex Analysis, Mathematical Method for Physics
+        - name: Introduction to Computer Science (Python), Programming Language (Fortran), Foundation of Data Science
+        - name: Electrical Engineering and Circuits, LabVIEW and Virtual Instrument Design
+    awards:
+      - name: First Class Scholarship (Top 5%)
+        time: 2021
+      - name: Outstanding Student Scholarship in Basic Sciences (Top 15%)
+        time: 2020
+      - name: Outstanding Student Award in School of Natural Sciences (Top 20%)
+        time: 2018
+    thesis:
+      - title: Animal Behavior Monitoring System Based on Photoelectric Principle
+    extracurricularActivities:
+      - To be added
+      - To be added
