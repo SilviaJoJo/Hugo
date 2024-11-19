@@ -1,0 +1,20 @@
+name: "Zhou (Silvia) Fang"
+nickname: "Silvia"
+image: "images/author/avatar.jpg"
+
+greeting: "Hi, I am"
+designation: "Research Intern @ Duke Quantum Center"
+
+socialLinks:
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/silviajojo"
+
+  # - name: "LinkedIn"
+  #   icon: "fab fa-linkedin"
+  #   url: "https://www.linkedin.com/in/yourprofile/"
+
+summary:
+  - I am a research intern and software engineer.
+  - I am interested in quantum software and quantum computer architecture.
+  - I am a member of the Green Lab at Duke Quantum Center.

@@ -2,6 +2,8 @@ baseURL = 'https://silviajojo.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
+theme = "toha"
+
 defaultContentLanguage = "en"
 [languages]
   [languages.en]
@@ -14,6 +16,19 @@ defaultContentLanguage = "en"
 [params]
   defaultLanguage = "en"
   showLanguageSelector = true
+  
+  background = "images/default-background.jpg"
+  
+  [params.navbar]
+    enable = true
+
+  [params.footer]
+    enable = true
+
+  [params.assets]
+    favicon = "images/site/favicon.png"
+    customCSS = ["css/custom.css"]
+    customJS = ["js/custom.js"]
 
 [markup]
   [markup.goldmark]
