@@ -9,13 +9,10 @@ defaultContentLanguage = "en"
   [languages.en]
     languageName = "English"
     weight = 1
-  [languages.zh]
-    languageName = "中文"
-    weight = 2
 
 [params]
   defaultLanguage = "en"
-  showLanguageSelector = true
+  showLanguageSelector = false
   
   background = "images/default-background.jpg"
   
@@ -34,6 +31,10 @@ defaultContentLanguage = "en"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+    ordered = false
 
 # Use Hugo modules to add theme
 [module]

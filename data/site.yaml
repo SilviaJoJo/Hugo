@@ -1,0 +1,19 @@
+# Copyright Notice
+copyright: © 2024 Copyright.
+
+# Meta description for your site
+description: Portfolio and personal website of Silvia.
+
+# specify the list of custom menus that you want to show in the top navbar.
+customMenus:
+- name: Docs
+  url: https://toha-guides.netlify.app/posts/
+  hideFromNavbar: false
+  showOnFooter: false
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Silvia's Website
+  type: website
+  description: Portfolio and personal website of Silvia.
+  url: https://silviajojo.github.io/
