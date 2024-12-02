@@ -128,6 +128,14 @@
               
               
                 <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
                   <a class="nav-link" href="#education">Education</a>
                 </li>
               
@@ -142,10 +150,6 @@
             
             
               
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
               
             
             
@@ -172,6 +176,12 @@
                   
                   
                     
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="#projects">Projects</a>
                     
                   
                   
@@ -389,6 +399,157 @@
           <div class="container-fluid section-holder d-flex bg-secondary">
             
 
+  
+
+
+<div class="container-fluid anchor pb-5 skills-section" id="skills">
+  
+    <h1 class="text-center">
+        <span id="skills"></span>Skills</h1>
+  
+  
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="skill-filter-buttons">
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="all">
+        All
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="basic">
+        Basic
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="language">
+        Language
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="container">
+        Container
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="others">
+        Others
+      </button>
+      
+    </div>
+  </div>
+  <div class="container d-flex-block filtr-skills">
+    <div class="row" id="skill-card-holder" style="margin-left:unset">
+  
+      
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, others'
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/linux_huf8888e89df43f58ab32b560cb211e230_26357_24x24_fit_box_3.png" alt="Linux" />
+          <h5 class="card-title">Linux</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Using as the main operating system. Capable of writing bash/shell scripts.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, basic'
+>
+  <a class="text-decoration-none" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/git_hu6c1226675924c2f2e3476a81b4d03976_10660_24x24_fit_box_3.png" alt="Git" />
+          <h5 class="card-title">Git</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Experienced with git-based development, including both Github and GitLab.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, basic,language'
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/c&#43;&#43;_hue32fe91ddbd83e8e5585833667109ec5_57810_24x24_fit_box_3.png" alt="C&#43;&#43;" />
+          <h5 class="card-title">C&#43;&#43;</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Proficient in C/C++ programming. Used for systems programming.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, container'
+>
+  <a class="text-decoration-none" href="https://www.docker.com/" title="Docker" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/docker.svg" alt="Docker" />
+          <h5 class="card-title">Docker</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Having experience of writing programs as dockerized containers.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
 
 
 
@@ -440,32 +601,76 @@
                             <div class="taken-courses">
                                 <h6 class="text-heading">Taken Courses:</h6>
                                 
-                                    <ul>
+                                
+                                <table>
+                                    <thead>
+                                        <th class="course-name-header">Course Name</th>
+                                        <th>Total Credit</th>
+                                        <th>Obtained Credit</th>
+                                    </thead>
+                                    <tbody>
                                         
-                                        <li class="course ">Fundamental Computer System &amp; Engineering (Computer Systems, Architecture)</li>
+                                        <tr class="course ">
+                                            <td>Fundamental Computer System &amp; Engineering (Computer Systems, Computer Architecture)</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course ">Programming, Data Structures &amp; Algorithms in C&#43;&#43;</li>
+                                        <tr class="course ">
+                                            <td>Programming, Data Structures &amp; Algorithms in C&#43;&#43;</td>
+                                            <td>4</td>
+                                            <td>3.3</td>
+                                        </tr>
                                         
-                                        <li class="course ">Algorithms (Discrete Math, Algorithms, CS Theory)</li>
+                                        <tr class="course ">
+                                            <td>Algorithms (Discrete Math, Algorithms, CS Theory)</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Engineering Robust Server Software (Full-stack projects)</li>
+                                        <tr class="course hidden-course">
+                                            <td>Engineering Robust Server Software (Full-stack projects)</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Systems Programming &amp; Engineering (OS, Computer Networks)</li>
+                                        <tr class="course hidden-course">
+                                            <td>Systems Programming &amp; Engineering (OS, Computer Networks)</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Random Signals and Noises (Linear Algebra, Probability, Statistics)</li>
+                                        <tr class="course hidden-course">
+                                            <td>Random Signals and Noises (Probability, Statistics, Random Processes, Estimation)</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Human-Centered Computing (UI &amp; UX Design)</li>
+                                        <tr class="course hidden-course">
+                                            <td>Human-Centered Computing (UI &amp; UX Design)</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Database Systems</li>
+                                        <tr class="course hidden-course">
+                                            <td>Database Systems</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Towards More Reliable Software (Software Engineering, Testing)</li>
+                                        <tr class="course hidden-course">
+                                            <td>Towards More Reliable Software (Software Engineering, Software Testing)</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                    </ul>
+                                    </tbody>
+                                </table>
                                 
                                 
-                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-2"
+                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-1"
                                     id="show-more-btn">Show More</button>
-                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-2"
+                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-1"
                                     id="show-less-btn">Show Less</button>
                                 
                             </div>
@@ -475,9 +680,9 @@
                                 <h6 class="text-heading">Extracurricular Activities:</h6>
                                 <ul>
                                 
-                                    <li>To be added</li>
+                                    <li>Pratt Rides Together: Designed an Uber-like app for Duke engineering students</li>
                                 
-                                    <li>To be added</li>
+                                    <li>Duke Life: Designed a centralized app that integrates Duke&rsquo;s services and resources</li>
                                 
                                 </ul>
                             </div>
@@ -524,32 +729,154 @@
                             <div class="taken-courses">
                                 <h6 class="text-heading">Taken Courses:</h6>
                                 
-                                    <ul>
+                                
+                                <table>
+                                    <thead>
+                                        <th class="course-name-header">Course Name</th>
+                                        <th>Total Credit</th>
+                                        <th>Obtained Credit</th>
+                                    </thead>
+                                    <tbody>
                                         
-                                        <li class="course ">Mechanics, Classical Mechanics, Thermology, Optics, Electromagnetism</li>
+                                        <tr class="course ">
+                                            <td>Mechanics</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course ">Atomic Physics, Quantum Mechanics</li>
+                                        <tr class="course ">
+                                            <td>Classical Mechanics</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course ">Solid State Physics, Thermodynamics &amp; Statistical Physics</li>
+                                        <tr class="course ">
+                                            <td>Thermology</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Fundamentals of Materials Science, Material Physics</li>
+                                        <tr class="course hidden-course">
+                                            <td>Optics</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Experimental Physics, Modern Physics Lab Experiments</li>
+                                        <tr class="course hidden-course">
+                                            <td>Electromagnetism</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Advanced Mathematics, Linear Algebra, Probability and Statistics</li>
+                                        <tr class="course hidden-course">
+                                            <td>Atomic Physics</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Complex Analysis, Mathematical Method for Physics</li>
+                                        <tr class="course hidden-course">
+                                            <td>Quantum Mechanics</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Introduction to Computer Science (Python), Programming (Fortran)</li>
+                                        <tr class="course hidden-course">
+                                            <td>Solid State Physics</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                        <li class="course hidden-course">Electrical Engineering and Circuits, LabVIEW Design</li>
+                                        <tr class="course hidden-course">
+                                            <td>Thermodynamics &amp; Statistical Physics</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
                                         
-                                    </ul>
+                                        <tr class="course hidden-course">
+                                            <td>Fundamentals of Materials Science</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Material Physics</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Experimental Physics</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Modern Physics Lab Experiments</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Advanced Mathematics</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Linear Algebra</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Complex Analysis</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Mathematical Method for Physics</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Intro to Computer Science (Python)</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Programming (Fortran)</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Data Science</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Electrical Engineering and Circuits</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>LabVIEW Design</td>
+                                            <td>4</td>
+                                            <td>3.7</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
                                 
                                 
-                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-2"
+                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-1"
                                     id="show-more-btn">Show More</button>
-                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-2"
+                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-1"
                                     id="show-less-btn">Show Less</button>
                                 
                             </div>
@@ -559,9 +886,15 @@
                                 <h6 class="text-heading">Extracurricular Activities:</h6>
                                 <ul>
                                 
-                                    <li>To be added</li>
+                                    <li>Volunteer for nucleic acid testing</li>
                                 
-                                    <li>To be added</li>
+                                    <li>Referee for table tennis and rope skipping competitions</li>
+                                
+                                    <li>Volunteer for teaching tie-dye crafts to elderly in community</li>
+                                
+                                    <li>Volunteer for teaching Chinese culture to Korean international students</li>
+                                
+                                    <li>Peer consultant</li>
                                 
                                 </ul>
                             </div>
@@ -584,7 +917,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-primary">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
@@ -637,13 +970,7 @@
             <h6 class="text-heading">Responsibilities:</h6>
             <ul class="justify-content-around">
                 
-                    <li>Developed software interface for EMCCD camera enabling quantum state readout of trapped ions</li>
-                
-                    <li>Supported features for camera setup, parameter control, image acquisition, data management, analysis, visualization and noise measurement</li>
-                
-                    <li>Optimized acquisition speed to achieve near 0ms acquisition time while maintaining data integrity</li>
-                
-                    <li>Integrating ion image readout into ARTIQ quantum control system to improve experimental operations efficiency</li>
+                    <li>Developed a Python interface for an EMCCD camera to support quantum state readout for trapped ions, significantly reducing acquisition time while ensuring data accuracy. Conducted simulations and worked on integrating the system into ARTIQ to enhance usability and streamline experimental workflows.</li>
                 
             </ul>
         
@@ -702,13 +1029,7 @@
             <h6 class="text-heading">Responsibilities:</h6>
             <ul class="justify-content-around">
                 
-                    <li>Conducting extensive literature review on software reliability for AI/ML-involved autonomous driving systems</li>
-                
-                    <li>Investigating reliability challenges unique to non-deterministic autonomous systems</li>
-                
-                    <li>Researching approaches to improve reliability through combinatorial testing</li>
-                
-                    <li>Exploring formal methods like model checking for quantitative dependability assessment of autonomous systems</li>
+                    <li>Performed a comprehensive review of over 30 papers on software reliability, focusing on challenges of non-deterministic behavior in autonomous driving systems and AI-based technologies. Investigated reliability issues in generative AI, explored enhancement methods like combinatorial testing, and applied formal techniques such as model checking to improve system safety and robustness.</li>
                 
             </ul>
         
@@ -775,13 +1096,7 @@
             <h6 class="text-heading">Responsibilities:</h6>
             <ul class="justify-content-around">
                 
-                    <li>Developed the &lsquo;Duke Faculty Scheduler&rsquo; Web App enabling professors to manage course schedules efficiently</li>
-                
-                    <li>Implemented features for uploading, online editing and exporting schedules to multiple formats (HTML, CSV, PDF, LaTex)</li>
-                
-                    <li>Integrated Firebase for secure user authentication and real-time schedule management functionality</li>
-                
-                    <li>Ensured secure access and data synchronization for large user base using React and Firebase</li>
+                    <li>Developed the Duke Faculty Scheduler web app, allowing professors to efficiently manage course schedules with features like uploading, editing, and exporting to multiple formats (HTML, CSV, PDF, LaTeX). Integrated React and Firebase for secure user authentication and real-time schedule management, ensuring reliable access and data synchronization for a large user base.</li>
                 
             </ul>
         
@@ -840,13 +1155,7 @@
             <h6 class="text-heading">Responsibilities:</h6>
             <ul class="justify-content-around">
                 
-                    <li>Implemented core database functionalities with Python, including multi-pass external memory hash join and large-scale aggregation</li>
-                
-                    <li>Developed query optimizer using Selinger-style dynamic programming for improved query execution</li>
-                
-                    <li>Optimized database performance by over 20% through implementing partial aggregation techniques</li>
-                
-                    <li>Built Devil&rsquo;s Database project under Prof. Jun Yang&rsquo;s advisorship using Python, SQL and Docker</li>
+                    <li>Developed core database functionalities for the Devil’s Database project, including multi-pass external memory hash join and large-scale aggregation. Designed a query optimizer using Selinger-style dynamic programming to enhance query execution and improved database performance by over 20% through partial aggregation techniques, leveraging Python, SQL, and Docker.</li>
                 
             </ul>
         
@@ -913,17 +1222,7 @@
             <h6 class="text-heading">Responsibilities:</h6>
             <ul class="justify-content-around">
                 
-                    <li>Studied the PCB layouts and circuit board design using Altium Designer for the development of an animal behavior monitoring device</li>
-                
-                    <li>Programmed Arduino Nano chip to modulate light signal frequency and assembled final device</li>
-                
-                    <li>Conducted product testing, authored error reports, and implemented safety improvements</li>
-                
-                    <li>Researched piezoelectric printing technology and identified optimal parameters for micro-dispensing print heads</li>
-                
-                    <li>Fabricated glass electrodes using Sutter P-97, refined tips with microforge technique</li>
-                
-                    <li>Built testing platform and successfully validated 2 implementation plans for print heads</li>
+                    <li>Collaborated on PCB design using Altium Designer and programmed an Arduino Nano chip in C to modulate light signal frequency. Assembled and tested the final device to ensure functionality, authored a report on common assembly errors, and implemented improvements to enhance safety and minimize interference with animals.</li>
                 
             </ul>
         
@@ -982,11 +1281,7 @@
             <h6 class="text-heading">Responsibilities:</h6>
             <ul class="justify-content-around">
                 
-                    <li>Developed a graphical user interface using LabVIEW to control Lock-In Amplifier (SR830)</li>
-                
-                    <li>Implemented data acquisition and visualization features for experimental measurements</li>
-                
-                    <li>Built instrument control functionality to enable precise control of the Lock-In Amplifier</li>
+                    <li>Developed a software interface to control a Lock-In Amplifier (SR830), which enabled data acquisition, data visualization, and instrument control for experimental measurements</li>
                 
             </ul>
         
@@ -1053,9 +1348,7 @@
             <h6 class="text-heading">Responsibilities:</h6>
             <ul class="justify-content-around">
                 
-                    <li>Collaborated on simulating the large-scale STM environment on a small-scale STM system</li>
-                
-                    <li>Tested and enhanced a LabVIEW program to control four motors for precise facula focusing on STM tip</li>
+                    <li>Collaborated on simulating large-scale STM environments using a small-scale STM system and enhanced a LabVIEW program to control four motors, achieving precise facula focusing on the STM tip.</li>
                 
             </ul>
         
@@ -1078,7 +1371,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-secondary">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -1092,10 +1385,349 @@
   <div class="container ms-auto text-center">
     <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
       
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="all">
+        All
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="professional">
+        Professional
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="academic">
+        Academic
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="hobby">
+        Hobby
+      </button>
+      
     </div>
   </div>
   <div class="container filtr-projects">
     <div class="row" id="project-card-holder">
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, professional,kubernetes,cloud'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/kubernetes/kubernetes" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+              
+
+                
+                  
+                
+
+            
+            
+            <h5 class="card-title mb-0">Kubernetes</h5>
+          </div>
+          <div class="sub-title">
+            <span>Contributor</span>
+            <span>March 2018 - Present</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Production-Grade Container Scheduling and Management.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    professional
+                  </span>
+              
+                  <span class="badge btn-info">
+                    kubernetes
+                  </span>
+              
+                  <span class="badge btn-info">
+                    cloud
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            
+            <a
+              class="github-button project-btn d-none"
+              href="https://github.com/kubernetes/kubernetes"
+              data-icon="octicon-standard"
+              data-show-count="true"
+              aria-label="Star Kubernetes"
+              >Star</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, professional,machine-learning'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/tensorflow/tensorflow" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+              
+
+                
+                  
+                
+
+            
+            
+            <h5 class="card-title mb-0">Tensorflow</h5>
+          </div>
+          <div class="sub-title">
+            <span>Developer</span>
+            <span>Jun 2018 - Present</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>An Open Source Machine Learning Framework for Everyone.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    professional
+                  </span>
+              
+                  <span class="badge btn-info">
+                    machine-learning
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            
+            <a
+              class="github-button project-btn d-none"
+              href="https://github.com/tensorflow/tensorflow"
+              data-icon="octicon-standard"
+              data-show-count="true"
+              aria-label="Star Tensorflow"
+              >Star</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, academic,iot'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.example.com" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+            
+            <h5 class="card-title mb-0">A sample academic paper</h5>
+          </div>
+          <div class="sub-title">
+            <span>Team Lead</span>
+            <span>Jan 2017 - Nov 2017</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    academic
+                  </span>
+              
+                  <span class="badge btn-info">
+                    iot
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.example.com"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, hobby,fun'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/kelseyhightower/nocode" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+              
+
+                
+                  
+                
+
+            
+            
+            <h5 class="card-title mb-0">Nocode</h5>
+          </div>
+          <div class="sub-title">
+            <span>Nothing</span>
+            <span>Oct 2019 - Dec 2019</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>The best way to write secure and reliable applications. Write nothing; deploy nowhere.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    hobby
+                  </span>
+              
+                  <span class="badge btn-info">
+                    fun
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            
+            <a
+              class="github-button project-btn d-none"
+              href="https://github.com/kelseyhightower/nocode"
+              data-icon="octicon-standard"
+              data-show-count="true"
+              aria-label="Star Nocode"
+              >Star</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, hobby,hugo,theme,professional'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+              
+
+                
+                  
+                
+
+            
+            
+            <h5 class="card-title mb-0">Toha</h5>
+          </div>
+          <div class="sub-title">
+            <span>Owner</span>
+            <span>Jun 2019 - Present</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>A Hugo theme for personal portfolio.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    hobby
+                  </span>
+              
+                  <span class="badge btn-info">
+                    hugo
+                  </span>
+              
+                  <span class="badge btn-info">
+                    theme
+                  </span>
+              
+                  <span class="badge btn-info">
+                    professional
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            
+            <a
+              class="github-button project-btn d-none"
+              href="https://github.com/hossainemruz/toha"
+              data-icon="octicon-standard"
+              data-show-count="true"
+              aria-label="Star Toha"
+              >Star</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       
     </div>
   </div>
@@ -1109,7 +1741,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-primary">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
@@ -1201,6 +1833,15 @@
                 
                 <li class="nav-item">
                   <a class="smooth-scroll" href="http://localhost:1313/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#skills">Skills</a>
                 </li>
               
               

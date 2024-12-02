@@ -2,7 +2,7 @@ section:
   name: Experience
   id: experiences
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true
 
 experiences:
@@ -16,11 +16,11 @@ experiences:
       end: Present
       supervisor: "Prof. Crystal Noel, Dr. Brad Bondurant"
       responsibilities:
-      - "Developed software interface for EMCCD camera enabling quantum state readout of trapped ions"
-      - "Supported features for camera setup, parameter control, image acquisition, data management, analysis, visualization and noise measurement"
-      - "Optimized acquisition speed to achieve near 0ms acquisition time while maintaining data integrity"
-      - "Integrating ion image readout into ARTIQ quantum control system to improve experimental operations efficiency"
-
+      - "Developed a Python interface for an EMCCD camera 
+      to support quantum state readout for trapped ions, 
+      significantly reducing acquisition time while ensuring data accuracy. 
+      Conducted simulations and worked on integrating the system into ARTIQ 
+      to enhance usability and streamline experimental workflows."
   - company:
       name: Duke University
       url: "https://ece.duke.edu/"
@@ -31,10 +31,12 @@ experiences:
       end: Present
       supervisor: "Prof. Kishor Trivedi"
       responsibilities:
-      - "Conducting extensive literature review on software reliability for AI/ML-involved autonomous driving systems"
-      - "Investigating reliability challenges unique to non-deterministic autonomous systems"
-      - "Researching approaches to improve reliability through combinatorial testing"
-      - "Exploring formal methods like model checking for quantitative dependability assessment of autonomous systems"
+      - "Performed a comprehensive review of over 30 papers on software reliability, 
+      focusing on challenges of non-deterministic behavior 
+      in autonomous driving systems and AI-based technologies. 
+      Investigated reliability issues in generative AI, 
+      explored enhancement methods like combinatorial testing, 
+      and applied formal techniques such as model checking to improve system safety and robustness."
 
   - company:
       name: Duke University
@@ -46,10 +48,11 @@ experiences:
       end: Present
       supervisor: "Prof. Rabih Younes"
       responsibilities:
-      - "Developed the 'Duke Faculty Scheduler' Web App enabling professors to manage course schedules efficiently"
-      - "Implemented features for uploading, online editing and exporting schedules to multiple formats (HTML, CSV, PDF, LaTex)"
-      - "Integrated Firebase for secure user authentication and real-time schedule management functionality"
-      - "Ensured secure access and data synchronization for large user base using React and Firebase"
+      - "Developed the Duke Faculty Scheduler web app, 
+      allowing professors to efficiently manage course schedules 
+      with features like uploading, editing, and exporting to multiple formats (HTML, CSV, PDF, LaTeX). 
+      Integrated React and Firebase for secure user authentication and real-time schedule management, 
+      ensuring reliable access and data synchronization for a large user base."
 
   - company:
       name: Duke University
@@ -61,10 +64,11 @@ experiences:
       end: May 2024
       supervisor: "Prof. Jun Yang"
       responsibilities:
-      - "Implemented core database functionalities with Python, including multi-pass external memory hash join and large-scale aggregation"
-      - "Developed query optimizer using Selinger-style dynamic programming for improved query execution"
-      - "Optimized database performance by over 20% through implementing partial aggregation techniques"
-      - "Built Devil's Database project under Prof. Jun Yang's advisorship using Python, SQL and Docker"
+      - "Developed core database functionalities for the Devil’s Database project, 
+      including multi-pass external memory hash join and large-scale aggregation. 
+      Designed a query optimizer using Selinger-style dynamic programming 
+      to enhance query execution and improved database performance 
+      by over 20% through partial aggregation techniques, leveraging Python, SQL, and Docker."
       
   - company:
       name: Chinese Institute for Brain Research
@@ -76,12 +80,11 @@ experiences:
       end: April 2022
       supervisor: "Dr. Lei Zhang"
       responsibilities:
-      - "Studied the PCB layouts and circuit board design using Altium Designer for the development of an animal behavior monitoring device"
-      - "Programmed Arduino Nano chip to modulate light signal frequency and assembled final device"
-      - "Conducted product testing, authored error reports, and implemented safety improvements"
-      - "Researched piezoelectric printing technology and identified optimal parameters for micro-dispensing print heads"
-      - "Fabricated glass electrodes using Sutter P-97, refined tips with microforge technique"
-      - "Built testing platform and successfully validated 2 implementation plans for print heads"
+      - "Collaborated on PCB design using Altium Designer 
+      and programmed an Arduino Nano chip in C to modulate light signal frequency. 
+      Assembled and tested the final device to ensure functionality, 
+      authored a report on common assembly errors, 
+      and implemented improvements to enhance safety and minimize interference with animals."
 
   - company:
       name: Renmin University of China
@@ -93,9 +96,9 @@ experiences:
       end: June 2021
       supervisor: "Prof. Peng Cai"
       responsibilities:
-      - "Developed a graphical user interface using LabVIEW to control Lock-In Amplifier (SR830)"
-      - "Implemented data acquisition and visualization features for experimental measurements"
-      - "Built instrument control functionality to enable precise control of the Lock-In Amplifier"
+      - "Developed a software interface to control a Lock-In Amplifier (SR830), 
+      which enabled data acquisition, data visualization, 
+      and instrument control for experimental measurements"
 
   - company:
       name: Institute of Physics, Chinese Academy of Sciences
@@ -107,5 +110,6 @@ experiences:
       end: Sep 2019
       supervisor: "Prof. Xinghua Lu"
       responsibilities:
-      - "Collaborated on simulating the large-scale STM environment on a small-scale STM system"
-      - "Tested and enhanced a LabVIEW program to control four motors for precise facula focusing on STM tip"
+      - "Collaborated on simulating large-scale STM environments 
+      using a small-scale STM system and enhanced a LabVIEW program to control four motors, 
+      achieving precise facula focusing on the STM tip."
