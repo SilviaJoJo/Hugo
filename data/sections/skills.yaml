@@ -13,36 +13,181 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
 - name: Language
   filter: "language"
+- name: Database
+  filter: "database"  
+- name: Package
+  filter: "package"
+- name: Software
+  filter: "software"
 - name: Container
   filter: "container"
-- name: Others
-  filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Experienced in Python programming for software development and data science."
+  categories: ["language"]
+
+- name: Java
+  logo: /images/sections/skills/java.png 
+  summary: "Proficient in Java development for object-oriented programming."
+  categories: ["language"]
+
+- name: C/C++
+  logo: /images/sections/skills/c++.png
+  summary: "Strong knowledge of C/C++ for systems programming and embedded development."
+  categories: ["language"]
+
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Experience with SQL databases and query optimization."
+  categories: ["language"]
+
+- name: JavaScript
+  logo: /images/sections/skills/javascript.webp
+  summary: "Frontend development using JavaScript, HTML, CSS and related frameworks."
+  categories: ["language"]
+
+- name: R
+  logo: /images/sections/skills/r.jpg
+  summary: "Statistical computing and data analysis using R."
+  categories: ["language"]
+
+- name: Fortran
+  logo: /images/sections/skills/fortran.png
+  summary: "Scientific computing and numerical analysis using Fortran."
+  categories: ["language"]
+
+- name: LabVIEW
+  logo: /images/sections/skills/labview.webp
+  summary: "Test automation and data acquisition using LabVIEW."
+  categories: ["language"]
+
+- name: Verilog
+  logo: /images/sections/skills/verilog.svg
+  summary: "Hardware description and FPGA development using Verilog."
+  categories: ["language"]
+
+- name: Shell
+  logo: /images/sections/skills/shell.webp
+  summary: "Shell scripting for automation and system administration."
+  categories: ["language"]
+
+- name: Scheme
+  logo: /images/sections/skills/scheme.png
+  summary: "Functional programming using Scheme."
+  categories: ["language"]
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development, including both Github and GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  summary: "Version control and collaborative development using Git."
+  categories: ["software"]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Proficient in C/C++ programming. Used for systems programming."
-  categories: ["basic", "language"]
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Linux system administration and development."
+  categories: ["software"]
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Having experience of writing programs as dockerized containers."
+  summary: "Containerization and deployment using Docker."
   categories: ["container"]
-  url: "https://www.docker.com/"
+
+- name: Make
+  logo: /images/sections/skills/make.webp
+  summary: "Build automation using Make."
+  categories: ["software"]
+
+- name: CMake
+  logo: /images/sections/skills/cmake.png
+  summary: "Cross-platform build system using CMake."
+  categories: ["software"]
+
+- name: Pandas
+  logo: /images/sections/skills/pandas.png
+  summary: "Data manipulation and analysis using Pandas."
+  categories: ["package"]
+
+- name: NumPy
+  logo: /images/sections/skills/numpy.png
+  summary: "Scientific computing and numerical operations using NumPy."
+  categories: ["package"]
+
+- name: PySpark
+  logo: /images/sections/skills/pyspark.webp
+  summary: "Data processing and analysis using PySpark."
+  categories: ["package"]
+
+- name: Seaborn
+  logo: /images/sections/skills/seaborn.png
+  summary: "Data visualization using Seaborn."
+  categories: ["package"]
+
+- name: Matplotlib
+  logo: /images/sections/skills/matplotlib.png
+  summary: "Data visualization using Matplotlib."
+  categories: ["package"]
+
+- name: Plotly
+  logo: /images/sections/skills/plotly.png
+  summary: "Data visualization using Plotly."
+  categories: ["package"]
+
+- name: Pytest
+  logo: /images/sections/skills/pytest.png
+  summary: "Testing and debugging using Pytest."
+  categories: ["package"]
+
+- name: Django
+  logo: /images/sections/skills/django.png
+  summary: "Web development using Django."
+  categories: ["package"]
+
+- name: Nano
+  logo: /images/sections/skills/nano.png
+  summary: "Embedded development using Nano."
+  categories: ["software"]
+
+- name: Vim
+  logo: /images/sections/skills/vim.png
+  summary: "Text editing using Vim."
+  categories: ["software"]
+
+- name: LaTeX
+  logo: /images/sections/skills/latex.svg
+  summary: "Document preparation using LaTeX."
+  categories: ["language"]
+
+- name: Emacs
+  logo: /images/sections/skills/emacs.webp
+  summary: "Text editing using Emacs."
+  categories: ["software"]
+
+- name: Markdown
+  logo: /images/sections/skills/markdown.png
+  summary: "Markdown for documentation and writing."
+  categories: ["language"]
+
+- name: Firebase
+  logo: /images/sections/skills/firebase.svg
+  summary: "Backend development using Firebase."
+  categories: ["database"]
+
+- name: MySQL
+  logo: /images/sections/skills/mysql.png
+  summary: "Relational database management using MySQL."
+  categories: ["database"]
+
+- name: PostgreSQL
+  logo: /images/sections/skills/postgresql.webp
+  summary: "Relational database management using PostgreSQL."
+  categories: ["database"]
+
+- name: MATLAB
+  logo: /images/sections/skills/matlab.png
+  summary: "Numerical computing and data analysis using MATLAB."
+  categories: ["software"]
