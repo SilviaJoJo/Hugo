@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/programming/</link>
+    <description>Recent content in Programming on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Dec 2024 11:52:29 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Running Python Files: Module vs Script</title>
+      <link>http://localhost:1313/posts/run-as-module/</link>
+      <pubDate>Tue, 03 Dec 2024 11:52:29 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/run-as-module/</guid>
+      <description>Introduction In Python, a file can be run either as a script or as a module. Understanding the difference between these two approaches is crucial for proper code organization and execution. Let&amp;rsquo;s explore both methods and their use cases.
+Running as a Script vs Module Script Execution When you run a Python file directly, it&amp;rsquo;s executed as a script:</description>
+    </item>
+    
+    
+  </channel>
+</rss>

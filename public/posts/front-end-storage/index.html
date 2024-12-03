@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Search Results</title>
+    <title>SessionStorage vs LocalStorage</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -12,31 +12,34 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/search/">
+<meta property="og:url" content="http://localhost:1313/posts/front-end-storage/">
   <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content="Search Results">
-  <meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
+  <meta property="og:title" content="SessionStorage vs LocalStorage">
+  <meta property="og:description" content="Introduction Web Storage is a crucial feature in modern web development that allows websites to store data directly in the user’s browser. The two main mechanisms for this are SessionStorage and LocalStorage. Let’s explore their differences and use cases.
+Key Differences 1. Data Persistence LocalStorage:
+Data persists until explicitly cleared Survives browser restarts and OS reboots No automatic expiration SessionStorage:
+Data persists only for the duration of the browser session Cleared when the browser tab is closed Each tab/window has its own separate storage 2.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="notes">
-    <meta property="article:published_time" content="2010-06-08T08:06:25+06:00">
-    <meta property="article:modified_time" content="2010-06-08T08:06:25+06:00">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-03T11:41:17-05:00">
+    <meta property="article:modified_time" content="2024-12-03T11:41:17-05:00">
+    <meta property="article:tag" content="Frontend">
+    <meta property="article:tag" content="Web Storage">
+    <meta property="article:tag" content="Javascript">
 
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Search Results">
-  <meta name="twitter:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
+  <meta name="twitter:title" content="SessionStorage vs LocalStorage">
+  <meta name="twitter:description" content="Introduction Web Storage is a crucial feature in modern web development that allows websites to store data directly in the user’s browser. The two main mechanisms for this are SessionStorage and LocalStorage. Let’s explore their differences and use cases.
+Key Differences 1. Data Persistence LocalStorage:
+Data persists until explicitly cleared Survives browser restarts and OS reboots No automatic expiration SessionStorage:
+Data persists only for the duration of the browser session Cleared when the browser tab is closed Each tab/window has its own separate storage 2.">
 
     
-     
+    
+<meta name="description" content="SessionStorage vs LocalStorage" />
+
 
     
 
@@ -56,7 +59,7 @@ Initial setup Search depends on additional output content type of JSON in config
     </script>
   </head>
 
-  <body class="type-notes kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
     <div class="container-fluid bg-secondary wrapper">
       
       
@@ -221,9 +224,6 @@ Initial setup Search depends on additional output content type of JSON in config
 
       
       
-  
-  
-
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
@@ -232,7 +232,7 @@ Initial setup Search depends on additional output content type of JSON in config
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/notes" data-filter="all">Notes</a></li>
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
             <div class="subtree">
                 
 
@@ -247,49 +247,174 @@ Initial setup Search depends on additional output content type of JSON in config
       
       
 <section class="content-section" id="content-section">
-  <div class="content container-fluid" id="content">
-    <div class="container-fluid note-card-holder" id="note-card-holder">
-      <p>This file exists solely to respond to /search URL with the related <code>search</code> layout template.</p>
-<p>No content shown here is rendered, all content is based in the template layouts/page/search.html</p>
-<p>Setting a very low sitemap priority will tell search engines this is not important content.</p>
-<p>This implementation uses Fusejs and mark.js</p>
-<h2 id="initial-setup">Initial setup</h2>
-<p>Search  depends on additional output content type of JSON in config.toml
-```
-[outputs]
-home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;]
-```</p>
-<h2 id="searching-additional-fields">Searching additional fields</h2>
-<p>To search additional fields defined in front matter, you must add it in 2 places.</p>
-<h3 id="edit-layouts_defaultindexjson">Edit layouts/_default/index.JSON</h3>
-<p>This exposes the values in /index.json
-i.e. add <code>category</code>
-```
-&hellip;
-&ldquo;contents&rdquo;:{{ .Content | plainify | jsonify }}
-{{ if .Params.tags }},
-&ldquo;tags&rdquo;:{{ .Params.tags | jsonify }}{{end}},
-&ldquo;categories&rdquo; : {{ .Params.categories | jsonify }},
-&hellip;
-```</p>
-<h3 id="edit-fusejs-options-to-search">Edit fuse.js options to Search</h3>
-<p><code>assets/scripts/pages/search.js</code>
-```
-keys: [
-&ldquo;title&rdquo;,
-&ldquo;contents&rdquo;,
-&ldquo;tags&rdquo;,
-&ldquo;categories&rdquo;
-]
-```</p>
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
 
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/avatar_hudddd2782753fee740b05ddea8c01f9d4_99642_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name"></h5>
+          <p class="text-muted">Tuesday, December 3, 2024</p>
+        </div>
+        
+        
+        <div class="title">
+          <h1>SessionStorage vs LocalStorage</h1>
+        </div>
+
+        
+
+        
+        <div class="post-content" id="post-content">
+          <h2 id="introduction">Introduction</h2>
+<p>Web Storage is a crucial feature in modern web development that allows websites to store data directly in the user&rsquo;s browser. The two main mechanisms for this are SessionStorage and LocalStorage. Let&rsquo;s explore their differences and use cases.</p>
+<h2 id="key-differences">Key Differences</h2>
+<h3 id="1-data-persistence">1. Data Persistence</h3>
+<ul>
+<li>
+<p><strong>LocalStorage</strong>:</p>
+<ul>
+<li>Data persists until explicitly cleared</li>
+<li>Survives browser restarts and OS reboots</li>
+<li>No automatic expiration</li>
+</ul>
+</li>
+<li>
+<p><strong>SessionStorage</strong>:</p>
+<ul>
+<li>Data persists only for the duration of the browser session</li>
+<li>Cleared when the browser tab is closed</li>
+<li>Each tab/window has its own separate storage</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-storage-scope">2. Storage Scope</h3>
+<ul>
+<li>
+<p><strong>LocalStorage</strong>:</p>
+<ul>
+<li>Shared across all tabs/windows of the same origin</li>
+<li>Changes in one tab are visible in other tabs</li>
+</ul>
+</li>
+<li>
+<p><strong>SessionStorage</strong>:</p>
+<ul>
+<li>Limited to a single tab/window</li>
+<li>Different tabs have isolated storage spaces</li>
+<li>Even identical URLs in different tabs have separate storage</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-storage-capacity">3. Storage Capacity</h3>
+<p>Both typically offer around 5-10 MB of storage space (varies by browser), but:</p>
+<ul>
+<li>LocalStorage generally has more space available</li>
+<li>Both are significantly larger than cookies (4KB)</li>
+</ul>
+<h2 id="code-examples">Code Examples</h2>
+<h3 id="using-localstorage">Using LocalStorage</h3>
+<h2 id="use-cases">Use Cases</h2>
+<h3 id="localstorage-best-for">LocalStorage Best For:</h3>
+<ul>
+<li>User preferences</li>
+<li>Theme settings</li>
+<li>Shopping cart items</li>
+<li>Cached data</li>
+<li>Authentication tokens (with proper security measures)</li>
+</ul>
+<h3 id="sessionstorage-best-for">SessionStorage Best For:</h3>
+<ul>
+<li>Form data backup</li>
+<li>Page position tracking</li>
+<li>One-time tour guides</li>
+<li>Temporary user session data</li>
+<li>Multi-step form data</li>
+</ul>
+<h2 id="security-considerations">Security Considerations</h2>
+<p>Both storage types:</p>
+<ul>
+<li>Are not secure for sensitive data</li>
+<li>Are vulnerable to XSS attacks</li>
+<li>Are accessible via JavaScript</li>
+<li>Should not store sensitive information like passwords</li>
+</ul>
+<h2 id="browser-support">Browser Support</h2>
+<p>Both LocalStorage and SessionStorage are widely supported across modern browsers:</p>
+<ul>
+<li>Chrome 4+</li>
+<li>Firefox 3.5+</li>
+<li>Safari 4+</li>
+<li>Internet Explorer 8+</li>
+<li>Opera 10.5+</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Choose LocalStorage when you need data to persist across browser sessions and tabs, and SessionStorage when you want temporary storage limited to a single browser tab. Both are valuable tools in web development, each serving different use cases effectively.</p>
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
     </div>
   </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
 </section>
 
 
       
-       
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
     </div>
 
     
@@ -453,25 +578,6 @@ keys: [
             src="/images/hugo-logo.svg"
             alt="Hugo Logo"
             height="18"
-          />
-          </a>
-        </div>
-      </div>
-    </div>
-    
-  </footer>
-
-
-    <script src="/application.d76f6c952296d89a375c5ed5d0d237652ee951795954edc0114d62f72eced624.js" integrity="sha256-129slSKW2Jo3XF7V0NI3ZS7pUXlZVO3AEU1i9y7O1iQ=" defer></script>
-
-
-    
-     
-
-    
-</body>
-</html>
-height="18"
           />
           </a>
         </div>

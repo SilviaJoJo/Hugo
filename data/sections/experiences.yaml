@@ -55,22 +55,6 @@ experiences:
       ensuring reliable access and data synchronization for a large user base."
 
   - company:
-      name: Duke University
-      url: "https://cs.duke.edu/"
-      location: Durham, NC
-    positions:
-    - designation: Project Lead
-      start: Jan 2024
-      end: May 2024
-      supervisor: "Prof. Jun Yang"
-      responsibilities:
-      - "Developed core database functionalities for the Devil’s Database project, 
-      including multi-pass external memory hash join and large-scale aggregation. 
-      Designed a query optimizer using Selinger-style dynamic programming 
-      to enhance query execution and improved database performance 
-      by over 20% through partial aggregation techniques, leveraging Python, SQL, and Docker."
-      
-  - company:
       name: Chinese Institute for Brain Research
       url: "https://www.cibr.ac.cn/"
       location: Beijing, China

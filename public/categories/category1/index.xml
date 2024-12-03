@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Category1 on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/category1/</link>
+    <description>Recent content in Category1 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Dec 2024 11:41:17 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/category1/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>My New Post</title>
+      <link>http://localhost:1313/posts/my-new-post/</link>
+      <pubDate>Tue, 03 Dec 2024 11:41:17 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-new-post/</guid>
+      <description>引言 这是我的第一篇博客文章。
+正文 这里可以写入正文内容。你可以使用各种 Markdown 语法：
+列表 项目1 项目2 项目3 代码块 def hello_world(): print(&amp;#34;Hello, world!&amp;#34;) </description>
+    </item>
+    
+    
+  </channel>
+</rss>
