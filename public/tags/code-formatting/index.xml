@@ -8,10 +8,10 @@
     <language>en</language>
     <lastBuildDate>Tue, 03 Dec 2024 11:41:17 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/code-formatting/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Code Format Checking Tools</title>
-      <link>http://localhost:1313/posts/my-new-post/</link>
+      <link>http://localhost:1313/posts/code-format-checking-tools/</link>
       <pubDate>Tue, 03 Dec 2024 11:41:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/my-new-post/</guid>
+      <guid>http://localhost:1313/posts/code-format-checking-tools/</guid>
       <description>Flake8 vs Autopep8 Flake8 Purpose: Code linting tool Function: Checks if code follows PEP 8 style guide Detects syntax errors Reports code style issues Key Features: Only identifies and reports issues Does not modify code Combines multiple tools: PyFlakes (Python code error checking) pycodestyle (style checking) McCabe (code complexity checking) Autopep8 Purpose: Code formatting tool Function: Automatically fixes code style issues Makes code PEP 8 compliant Key Features: Automatically modifies code Focuses on formatting issues Can fix most formatting issues reported by flake8 Relationship Complementary Tools: ```bash</description>
     </item>
     

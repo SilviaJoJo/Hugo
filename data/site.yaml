@@ -17,3 +17,12 @@ openGraph:
   type: website
   description: Portfolio and personal website of Silvia.
   url: https://silviajojo.github.io/
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "silviafang027@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/SilviaJoJo"
