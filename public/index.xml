@@ -8,34 +8,51 @@
     <language>en</language>
     <lastBuildDate>Tue, 03 Dec 2024 11:52:29 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Running Python Files: Module vs Script</title>
-      <link>http://localhost:1313/posts/run-as-module/</link>
+      <link>http://localhost:1313/posts/tools/command-line/</link>
       <pubDate>Tue, 03 Dec 2024 11:52:29 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/run-as-module/</guid>
-      <description>Introduction In Python, a file can be run either as a script or as a module. Understanding the difference between these two approaches is crucial for proper code organization and execution. Let&amp;rsquo;s explore both methods and their use cases.
-Running as a Script vs Module Script Execution When you run a Python file directly, it&amp;rsquo;s executed as a script:
-# Running directly from command line python script.py Module Execution When you import a file as a module into another Python file:</description>
+      <guid>http://localhost:1313/posts/tools/command-line/</guid>
+      <description>Running Python Files: Script vs Module Script Execution Purpose: Direct program execution Function: Runs file directly from command line Executes code sequentially __name__ == &amp;quot;__main__&amp;quot; Key Features: Command line usage One-off automation tasks Testing during development Module Execution Purpose: Code reusability Function: Imported into other Python files Code accessed as library __name__ == &amp;quot;module_name&amp;quot; Key Features: Reusable components Library functions Part of larger applications Relationship Best Practices:
+def main(): # Main execution code pass if __name__ == &amp;#34;__main__&amp;#34;: main() # Only runs when executed as script Use Cases:</description>
     </item>
     
     <item>
       <title>Code Format Checking Tools</title>
-      <link>http://localhost:1313/posts/code-format-checking-tools/</link>
+      <link>http://localhost:1313/posts/tools/format--checker/</link>
       <pubDate>Tue, 03 Dec 2024 11:41:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/code-format-checking-tools/</guid>
-      <description>Flake8 vs Autopep8 Flake8 Purpose: Code linting tool Function: Checks if code follows PEP 8 style guide Detects syntax errors Reports code style issues Key Features: Only identifies and reports issues Does not modify code Combines multiple tools: PyFlakes (Python code error checking) pycodestyle (style checking) McCabe (code complexity checking) Autopep8 Purpose: Code formatting tool Function: Automatically fixes code style issues Makes code PEP 8 compliant Key Features: Automatically modifies code Focuses on formatting issues Can fix most formatting issues reported by flake8 Relationship Complementary Tools: ```bash</description>
+      <guid>http://localhost:1313/posts/tools/format--checker/</guid>
+      <description>Flake8 vs Autopep8 Flake8 Purpose: Code linting tool Function: Checks if code follows PEP 8 style guide Detects syntax errors Reports code style issues Key Features: Only identifies and reports issues Does not modify code Combines multiple tools: PyFlakes (Python code error checking) pycodestyle (style checking) McCabe (code complexity checking) Autopep8 Purpose: Code formatting tool Function: Automatically fixes code style issues Makes code PEP 8 compliant Key Features: Automatically modifies code Focuses on formatting issues Can fix most formatting issues reported by flake8 Relationship Complementary Tools:</description>
     </item>
     
     <item>
       <title>SessionStorage vs LocalStorage</title>
-      <link>http://localhost:1313/posts/front-end-storage/</link>
+      <link>http://localhost:1313/posts/web-development/front-end-storage/</link>
       <pubDate>Tue, 03 Dec 2024 11:41:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/front-end-storage/</guid>
-      <description>Introduction Web Storage is a crucial feature in modern web development that allows websites to store data directly in the user&amp;rsquo;s browser. The two main mechanisms for this are SessionStorage and LocalStorage. Let&amp;rsquo;s explore their differences and use cases.
-Key Differences 1. Data Persistence LocalStorage:
-Data persists until explicitly cleared Survives browser restarts and OS reboots No automatic expiration SessionStorage:
-Data persists only for the duration of the browser session Cleared when the browser tab is closed Each tab/window has its own separate storage 2.</description>
+      <guid>http://localhost:1313/posts/web-development/front-end-storage/</guid>
+      <description>SessionStorage vs LocalStorage LocalStorage Purpose: Persistent web storage Function: Stores data with no expiration date Persists across browser sessions Shared across browser tabs Key Features: Data survives browser restarts ~5-10MB storage capacity Same-origin access only Accessible via JavaScript SessionStorage Purpose: Temporary web storage Function: Stores data for one browser session Clears when tab is closed Isolated per browser tab Key Features: Tab-specific storage ~5-10MB storage capacity Temporary data persistence Same-origin access only Relationship Common Traits:</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/posts/introduction/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/introduction/</guid>
+      <description>Greeting! This is an introduction post. This post tests the followings:
+Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file. </description>
+    </item>
+    
+    <item>
+      <title>Shortcodes Samples</title>
+      <link>http://localhost:1313/posts/shortcodes/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/shortcodes/</guid>
+      <description>This is a sample post intended to test the followings:
+Default hero image. Different shortcodes. Alert The following alerts are available in this theme.
+This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert with type=&amp;quot;danger&amp;quot;. This is sample alert with type=&amp;quot;warning&amp;quot;. This is sample alert with type=&amp;quot;info&amp;quot;. This is sample alert with type=&amp;quot;dark&amp;quot;. This is sample alert with type=&amp;quot;primary&amp;quot;. This is sample alert with type=&amp;quot;secondary&amp;quot;. Image A sample image without any attribute.</description>
     </item>
     
     
@@ -63,6 +80,67 @@ Data persists only for the duration of the browser session Cleared when the brow
     
     
     
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/notes/go/basic/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/basic/introduction/</guid>
+      <description> Hello World A sample go program is show here.
+package main import &amp;#34;fmt&amp;#34; func main() { message := greetMe(&amp;#34;world&amp;#34;) fmt.Println(message) } func greetMe(name string) string { return &amp;#34;Hello, &amp;#34; + name + &amp;#34;!&amp;#34; } Run the program as below:
+$ go run hello.go Variables Normal Declaration:
+var msg string msg = &amp;#34;Hello&amp;#34; Shortcut:
+msg := &amp;#34;Hello&amp;#34; Constants const Phi = 1.618 </description>
+    </item>
+    
+    <item>
+      <title>Basic Types</title>
+      <link>http://localhost:1313/notes/go/basic/types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/basic/types/</guid>
+      <description>Strings str := &amp;#34;Hello&amp;#34; Multiline string
+str := `Multiline string` Numbers Typical types
+num := 3 // int num := 3. // float64 num := 3 + 4i // complex128 num := byte(&amp;#39;a&amp;#39;) // byte (alias for uint8) Other Types
+var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays // var numbers [5]int numbers := [...]int{0, 0, 0, 0, 0} Pointers func main () { b := *getPointer() fmt.</description>
+    </item>
+    
+    <item>
+      <title>Flow Control</title>
+      <link>http://localhost:1313/notes/go/basic/flow-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/basic/flow-control/</guid>
+      <description>Condition if day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;) Switch switch day { case &amp;#34;sunday&amp;#34;: // cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default! fallthrough case &amp;#34;saturday&amp;#34;: rest() default: work() } Loop for count := 0; count &amp;lt;= 10; count++ { fmt.Println(&amp;#34;My counter is at&amp;#34;, count) } entry := []string{&amp;#34;Jack&amp;#34;,&amp;#34;John&amp;#34;,&amp;#34;Jones&amp;#34;} for i, val := range entry { fmt.</description>
+    </item>
+    
+    <item>
+      <title>File Manipulation</title>
+      <link>http://localhost:1313/notes/go/advanced/files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/advanced/files/</guid>
+      <description> Condition if day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;) </description>
+    </item>
+    
+    <item>
+      <title>Bash Variables</title>
+      <link>http://localhost:1313/notes/bash/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/bash/basic/</guid>
+      <description> Variable NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME} Condition if [[ -z &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is empty&amp;#34; elif [[ -n &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is not empty&amp;#34; fi </description>
+    </item>
+    
+    
+    <item>
+      <title>নোট সমূহ</title>
+      <link>http://localhost:1313/notes/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/_index.bn/</guid>
+      <description></description>
+    </item>
     
     
   </channel>

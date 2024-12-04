@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/web-development/</link>
+    <description>Recent content in Web Development on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Dec 2024 11:41:17 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/web-development/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>SessionStorage vs LocalStorage</title>
+      <link>http://localhost:1313/posts/web-development/front-end-storage/</link>
+      <pubDate>Tue, 03 Dec 2024 11:41:17 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/web-development/front-end-storage/</guid>
+      <description>SessionStorage vs LocalStorage LocalStorage Purpose: Persistent web storage Function: Stores data with no expiration date Persists across browser sessions Shared across browser tabs Key Features: Data survives browser restarts ~5-10MB storage capacity Same-origin access only Accessible via JavaScript SessionStorage Purpose: Temporary web storage Function: Stores data for one browser session Clears when tab is closed Isolated per browser tab Key Features: Tab-specific storage ~5-10MB storage capacity Temporary data persistence Same-origin access only Relationship Common Traits:</description>
+    </item>
+    
+    
+  </channel>
+</rss>

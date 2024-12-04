@@ -10,10 +10,6 @@ socialLinks:
     icon: "fab fa-github"
     url: "https://github.com/silviajojo"
 
-  # - name: "LinkedIn"
-  #   icon: "fab fa-linkedin"
-  #   url: "https://www.linkedin.com/in/yourprofile/"
-
 summary:
   - I am a research intern and software engineer.
   - I am interested in quantum software and quantum computer architecture.

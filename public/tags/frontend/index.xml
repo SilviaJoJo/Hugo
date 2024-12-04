@@ -8,14 +8,11 @@
     <language>en</language>
     <lastBuildDate>Tue, 03 Dec 2024 11:41:17 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/frontend/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>SessionStorage vs LocalStorage</title>
-      <link>http://localhost:1313/posts/front-end-storage/</link>
+      <link>http://localhost:1313/posts/web-development/front-end-storage/</link>
       <pubDate>Tue, 03 Dec 2024 11:41:17 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/front-end-storage/</guid>
-      <description>Introduction Web Storage is a crucial feature in modern web development that allows websites to store data directly in the user&amp;rsquo;s browser. The two main mechanisms for this are SessionStorage and LocalStorage. Let&amp;rsquo;s explore their differences and use cases.
-Key Differences 1. Data Persistence LocalStorage:
-Data persists until explicitly cleared Survives browser restarts and OS reboots No automatic expiration SessionStorage:
-Data persists only for the duration of the browser session Cleared when the browser tab is closed Each tab/window has its own separate storage 2.</description>
+      <guid>http://localhost:1313/posts/web-development/front-end-storage/</guid>
+      <description>SessionStorage vs LocalStorage LocalStorage Purpose: Persistent web storage Function: Stores data with no expiration date Persists across browser sessions Shared across browser tabs Key Features: Data survives browser restarts ~5-10MB storage capacity Same-origin access only Accessible via JavaScript SessionStorage Purpose: Temporary web storage Function: Stores data for one browser session Clears when tab is closed Isolated per browser tab Key Features: Tab-specific storage ~5-10MB storage capacity Temporary data persistence Same-origin access only Relationship Common Traits:</description>
     </item>
     
     
