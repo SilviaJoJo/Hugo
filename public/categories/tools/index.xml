@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on My New Hugo Site</title>
+    <title>Tools on Silvia&#39;s Website</title>
     <link>http://localhost:1313/categories/tools/</link>
-    <description>Recent content in Tools on My New Hugo Site</description>
+    <description>Recent content in Tools on Silvia&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Dec 2024 11:41:17 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Tue, 03 Dec 2024 11:52:29 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Running Python Files: Module vs Script</title>
+      <link>http://localhost:1313/posts/tools/command-line/</link>
+      <pubDate>Tue, 03 Dec 2024 11:52:29 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/tools/command-line/</guid>
+      <description>Running Python Files: Script vs Module Script Execution Purpose: Direct program execution Function: Runs file directly from command line Executes code sequentially __name__ == &amp;quot;__main__&amp;quot; Key Features: Command line usage One-off automation tasks Testing during development Module Execution Purpose: Code reusability Function: Imported into other Python files Code accessed as library __name__ == &amp;quot;module_name&amp;quot; Key Features: Reusable components Library functions Part of larger applications Relationship Best Practices:
+def main(): # Main execution code pass if __name__ == &amp;#34;__main__&amp;#34;: main() # Only runs when executed as script Use Cases:</description>
+    </item>
+    
+    <item>
       <title>Code Format Checking Tools</title>
       <link>http://localhost:1313/posts/tools/format--checker/</link>
       <pubDate>Tue, 03 Dec 2024 11:41:17 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/tools/format--checker/</guid>
-      <description>Flake8 vs Autopep8 Flake8 Purpose: Code linting tool Function: Checks if code follows PEP 8 style guide Detects syntax errors Reports code style issues Key Features: Only identifies and reports issues Does not modify code Combines multiple tools: PyFlakes (Python code error checking) pycodestyle (style checking) McCabe (code complexity checking) Autopep8 Purpose: Code formatting tool Function: Automatically fixes code style issues Makes code PEP 8 compliant Key Features: Automatically modifies code Focuses on formatting issues Can fix most formatting issues reported by flake8 Relationship Complementary Tools: ```bash</description>
+      <description>Flake8 vs Autopep8 Flake8 Purpose: Code linting tool Function: Checks if code follows PEP 8 style guide Detects syntax errors Reports code style issues Key Features: Only identifies and reports issues Does not modify code Combines multiple tools: PyFlakes (Python code error checking) pycodestyle (style checking) McCabe (code complexity checking) Autopep8 Purpose: Code formatting tool Function: Automatically fixes code style issues Makes code PEP 8 compliant Key Features: Automatically modifies code Focuses on formatting issues Can fix most formatting issues reported by flake8 Relationship Complementary Tools:</description>
     </item>
     
     

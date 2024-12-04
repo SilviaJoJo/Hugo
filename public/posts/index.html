@@ -13,7 +13,7 @@
 
 
 <meta property="og:url" content="http://localhost:1313/posts/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="Silvia&#39;s Website">
   <meta property="og:title" content="Posts">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
@@ -92,7 +92,7 @@
     </button>
     
     <a class="navbar-brand" href="/">
-      My New Hugo Site</a>
+      Silvia&#39;s Website</a>
     <button
       class="navbar-toggler navbar-light"
       id="navbar-toggler"
@@ -201,10 +201,49 @@
           
         
         
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
         
         
         
         
+        
+          
+
+
+
+  
+  
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
         
       </ul>
     </div>
@@ -238,17 +277,8 @@
   
   
     
-    <li><a class=" list-link" href="/posts/introduction/" title="Introduction">Introduction</a></li>
-  
-
-  
-  
-  
-  
-  
-    
     <li>
-      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/category/"> Category</a>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/web-development/"> Web Development</a>
       
       <ul class="">
         
@@ -258,23 +288,7 @@
   
   
     
-    <li>
-      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/category/sub-category/"> Sub-Category</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class=" list-link" href="/posts/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
-  
-
-
-      </ul>
-    </li>
+    <li><a class=" list-link" href="/posts/web-development/front-end-storage/" title="Web Storage">Web Storage</a></li>
   
 
 
@@ -288,7 +302,18 @@
   
   
     
-    <li><a class=" list-link" href="/posts/markdown-sample/index.bn/" title="Markdown Sample">Markdown Sample</a></li>
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/tools/"> Tools</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/tools/format--checker/" title="Format Checkers">Format Checkers</a></li>
   
 
   
@@ -297,7 +322,12 @@
   
   
     
-    <li><a class=" list-link" href="/posts/tools/" title="Tools">Tools</a></li>
+    <li><a class=" list-link" href="/posts/tools/command-line/" title="Python Execution">Python Execution</a></li>
+  
+
+
+      </ul>
+    </li>
   
 
   
@@ -331,15 +361,15 @@
           <div class="post-card">
   <div class="card">
     <div class="card-head">
-      <a href="/posts/tools/" class="post-card-link">
-        <img class="card-img-top" src='/posts/tools/hero.svg' alt="Hero Image">
+      <a href="/posts/tools/command-line/" class="post-card-link">
+        <img class="card-img-top" src='/posts/tools/command-line/hero.svg' alt="Hero Image">
       </a>
     </div>
     <div class="card-body">
-      <a href="/posts/tools/" class="post-card-link">
-        <h5 class="card-title">Tools</h5>
-        <p class="card-text post-summary">This is a collection of tools that I use for development and research:
-Git for version control VS Code for coding Hugo for static site generation LaTeX for academic writing </p>
+      <a href="/posts/tools/command-line/" class="post-card-link">
+        <h5 class="card-title">Running Python Files: Module vs Script</h5>
+        <p class="card-text post-summary">Running Python Files: Script vs Module Script Execution Purpose: Direct program execution Function: Runs file directly from command line Executes code sequentially __name__ == &amp;quot;__main__&amp;quot; Key Features: Command line usage One-off automation tasks Testing during development Module Execution Purpose: Code reusability Function: Imported into other Python files Code accessed as library __name__ == &amp;quot;module_name&amp;quot; Key Features: Reusable components Library functions Part of larger applications Relationship Best Practices:
+def main(): # Main execution code pass if __name__ == &amp;#34;__main__&amp;#34;: main() # Only runs when executed as script Use Cases:</p>
       </a>
       
     </div>
@@ -348,7 +378,7 @@ Git for version control VS Code for coding Hugo for static site generation LaTeX
           Tuesday, December 3, 2024
           </span>
       <a
-      href="/posts/tools/"
+      href="/posts/tools/command-line/"
       class="float-end btn btn-outline-info btn-sm">Read</a>
     </div>
   </div>
@@ -360,24 +390,23 @@ Git for version control VS Code for coding Hugo for static site generation LaTeX
           <div class="post-card">
   <div class="card">
     <div class="card-head">
-      <a href="/posts/introduction/" class="post-card-link">
-        <img class="card-img-top" src='/posts/introduction/hero.svg' alt="Hero Image">
+      <a href="/posts/tools/format--checker/" class="post-card-link">
+        <img class="card-img-top" src='/posts/tools/format--checker/hero.svg' alt="Hero Image">
       </a>
     </div>
     <div class="card-body">
-      <a href="/posts/introduction/" class="post-card-link">
-        <h5 class="card-title">Introduction</h5>
-        <p class="card-text post-summary">Greeting! This is an introduction post. This post tests the followings:
-Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file. </p>
+      <a href="/posts/tools/format--checker/" class="post-card-link">
+        <h5 class="card-title">Code Format Checking Tools</h5>
+        <p class="card-text post-summary">Flake8 vs Autopep8 Flake8 Purpose: Code linting tool Function: Checks if code follows PEP 8 style guide Detects syntax errors Reports code style issues Key Features: Only identifies and reports issues Does not modify code Combines multiple tools: PyFlakes (Python code error checking) pycodestyle (style checking) McCabe (code complexity checking) Autopep8 Purpose: Code formatting tool Function: Automatically fixes code style issues Makes code PEP 8 compliant Key Features: Automatically modifies code Focuses on formatting issues Can fix most formatting issues reported by flake8 Relationship Complementary Tools:</p>
       </a>
       
     </div>
     <div class="card-footer">
       <span class="float-start">
-          Monday, June 8, 2020
+          Tuesday, December 3, 2024
           </span>
       <a
-      href="/posts/introduction/"
+      href="/posts/tools/format--checker/"
       class="float-end btn btn-outline-info btn-sm">Read</a>
     </div>
   </div>
@@ -389,55 +418,23 @@ Hero image is in the same directory as the post. This post should be at top of t
           <div class="post-card">
   <div class="card">
     <div class="card-head">
-      <a href="/posts/markdown-sample/index.bn/" class="post-card-link">
-        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      <a href="/posts/web-development/front-end-storage/" class="post-card-link">
+        <img class="card-img-top" src='/posts/web-development/front-end-storage/forest.jpg' alt="Hero Image">
       </a>
     </div>
     <div class="card-body">
-      <a href="/posts/markdown-sample/index.bn/" class="post-card-link">
-        <h5 class="card-title">Markdown Samples</h5>
-        <p class="card-text post-summary">This is a sample post intended to test the followings:
-A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering. Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</p>
+      <a href="/posts/web-development/front-end-storage/" class="post-card-link">
+        <h5 class="card-title">SessionStorage vs LocalStorage</h5>
+        <p class="card-text post-summary">SessionStorage vs LocalStorage LocalStorage Purpose: Persistent web storage Function: Stores data with no expiration date Persists across browser sessions Shared across browser tabs Key Features: Data survives browser restarts ~5-10MB storage capacity Same-origin access only Accessible via JavaScript SessionStorage Purpose: Temporary web storage Function: Stores data for one browser session Clears when tab is closed Isolated per browser tab Key Features: Tab-specific storage ~5-10MB storage capacity Temporary data persistence Same-origin access only Relationship Common Traits:</p>
       </a>
       
     </div>
     <div class="card-footer">
       <span class="float-start">
-          Monday, June 8, 2020
+          Tuesday, December 3, 2024
           </span>
       <a
-      href="/posts/markdown-sample/index.bn/"
-      class="float-end btn btn-outline-info btn-sm">Read</a>
-    </div>
-  </div>
-</div>
-
-        
-      
-        
-          <div class="post-card">
-  <div class="card">
-    <div class="card-head">
-      <a href="/posts/category/sub-category/rich-content/" class="post-card-link">
-        <img class="card-img-top" src='/posts/category/sub-category/rich-content/images/forest.jpg' alt="Hero Image">
-      </a>
-    </div>
-    <div class="card-body">
-      <a href="/posts/category/sub-category/rich-content/" class="post-card-link">
-        <h5 class="card-title">Rich Content</h5>
-        <p class="card-text post-summary">This sample post tests the followings:
-Category, sub-category nesting in the sidebar. Hero image and other images are in images folder inside this post directory. Different media rendering like image, tweet, YouTube video, Vimeo video etc. Image Sample Tweet Sample Owl bet you&amp;#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC
-&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 YouTube Video Sample Vimeo Video Sample </p>
-      </a>
-      
-    </div>
-    <div class="card-footer">
-      <span class="float-start">
-          Monday, June 8, 2020
-          </span>
-      <a
-      href="/posts/category/sub-category/rich-content/"
+      href="/posts/web-development/front-end-storage/"
       class="float-end btn btn-outline-info btn-sm">Read</a>
     </div>
   </div>
@@ -468,34 +465,6 @@ This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert
           </span>
       <a
       href="/posts/shortcodes/"
-      class="float-end btn btn-outline-info btn-sm">Read</a>
-    </div>
-  </div>
-</div>
-
-        
-      
-        
-          <div class="post-card">
-  <div class="card">
-    <div class="card-head">
-      <a href="/posts/category/sub-category/_index.bn/" class="post-card-link">
-        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
-      </a>
-    </div>
-    <div class="card-body">
-      <a href="/posts/category/sub-category/_index.bn/" class="post-card-link">
-        <h5 class="card-title">Sub-Category</h5>
-        <p class="card-text post-summary"></p>
-      </a>
-      
-    </div>
-    <div class="card-footer">
-      <span class="float-start">
-          Monday, January 1, 1
-          </span>
-      <a
-      href="/posts/category/sub-category/_index.bn/"
       class="float-end btn btn-outline-info btn-sm">Read</a>
     </div>
   </div>
@@ -640,13 +609,6 @@ This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert
         </div>
         
         
-        <div class="col-md-4 col-sm-12">
-          <h5>Contact me:</h5>
-          <ul>
-            
-          </ul>
-        </div>
-        
         
         
           
@@ -694,7 +656,7 @@ This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert
   </footer>
 
 
-    <script src="/application.3aca04f5f4ff24a4ed8e3c487ea51e51be2bb9d5ee6e50ba55f86e384ee237a8.js" integrity="sha256-OsoE9fT/JKTtjjxIfqUeUb4rudXublC6VfhuOE7iN6g=" defer></script>
+    <script src="/application.a66186737e5457f4b267658c941a5baf011a48d17184b2b717b71e59b175f707.js" integrity="sha256-pmGGc35UV/SyZ2WMlBpbrwEaSNFxhLK3F7ceWbF19wc=" defer></script>
 
 
     

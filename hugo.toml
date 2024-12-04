@@ -1,6 +1,6 @@
 baseURL = 'https://silviajojo.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Silvia's Website"
 
 theme = "toha"
 
@@ -21,11 +21,52 @@ defaultContentLanguage = "en"
 
   [params.footer]
     enable = true
+    
+    [params.footer.navigation]
+      enable = true
+      customMenus = true
+
+    [params.footer.contactMe]
+      enable = false
+
+    [params.footer.credentials]
+      enable = true
+
+    [params.footer.disclaimer]
+      enable = true
+      text = "The opinions expressed on this site are my own personal opinions and do not represent my employer's view in any way."
 
   [params.assets]
     favicon = "images/site/favicon.png"
     customCSS = ["css/custom.css"]
     customJS = ["js/custom.js"]
+
+  [params.topNavbar]
+    maxVisibleSections = 5
+
+  [params.features]
+    [params.features.theme]
+      enable = true
+      
+      [params.features.theme.services]
+        light = true
+        dark = true
+        default = "system"
+
+    [params.features.portfolio]
+      enable = true
+
+    [params.features.blog]
+      enable = true
+      showAuthor = true
+      
+      [params.features.blog.shareButtons]
+        facebook = true
+        twitter = true
+        linkedin = true
+        reddit = true
+        whatsapp = true
+        email = true
 
 [markup]
   [markup.goldmark]
