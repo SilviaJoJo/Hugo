@@ -35,14 +35,13 @@ def main(): # Main execution code pass if __name__ == &amp;#34;__main__&amp;#34;
     </item>
     
     <item>
-      <title>Shortcodes Samples</title>
-      <link>http://localhost:1313/posts/shortcodes/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      <title>Fun Facts About Me</title>
+      <link>http://localhost:1313/posts/miscellaneous/</link>
+      <pubDate>Mon, 15 Jan 2024 08:06:25 +0600</pubDate>
       
-      <guid>http://localhost:1313/posts/shortcodes/</guid>
-      <description>This is a sample post intended to test the followings:
-Default hero image. Different shortcodes. Alert The following alerts are available in this theme.
-This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert with type=&amp;quot;danger&amp;quot;. This is sample alert with type=&amp;quot;warning&amp;quot;. This is sample alert with type=&amp;quot;info&amp;quot;. This is sample alert with type=&amp;quot;dark&amp;quot;. This is sample alert with type=&amp;quot;primary&amp;quot;. This is sample alert with type=&amp;quot;secondary&amp;quot;. Image A sample image without any attribute.</description>
+      <guid>http://localhost:1313/posts/miscellaneous/</guid>
+      <description>🎬 Favorite Movies Here are some movies that have left a lasting impression on me:
+Interstellar - The perfect blend of science, emotion, and stunning visuals The Shawshank Redemption - A timeless story about hope and friendship Inception - Mind-bending plot with incredible execution 🎵 Music Taste Favorite Bands/Artists Coldplay Imagine Dragons The Weeknd Taylor Swift Go-to Genres Alternative Rock Pop Electronic Classical (especially when coding!) 📚 Books I Love &amp;ldquo;The Three-Body Problem&amp;rdquo; by Liu Cixin &amp;ldquo;Atomic Habits&amp;rdquo; by James Clear &amp;ldquo;Clean Code&amp;rdquo; by Robert C.</description>
     </item>
     
     
