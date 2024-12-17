@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Silvia&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Dec 2024 11:52:29 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Wed, 04 Dec 2024 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Fun Facts About Me</title>
+      <link>http://localhost:1313/posts/miscellaneous/</link>
+      <pubDate>Wed, 04 Dec 2024 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/miscellaneous/</guid>
+      <description>🎬 Favorite Movies Here are some movies that I have watched multiple times:
+Asako I &amp;amp; II by Ryūsuke Hamaguchi I Wish by Hirokazu Kore-eda Favorite Anime Hunter x Hunter by Yoshihiro Togashi Diamond is Unbreakable by Hirohiko Araki Favorite Characters Rohan Kishibe from Jojo&amp;rsquo;s Bizarre Adventure Tōru Oikawa from Haikyuu 🎵 Music Taste Favorite Songs Living Dolls by ONE OK ROCK Heartache by ONE OK ROCK Sanbyoshi by RADWIMPS 📚 Books I Love &amp;ldquo;Immortality&amp;rdquo; by Milan Kundera &amp;ldquo;Colorless Tsukuru Tazaki and His Years of Pilgrimage&amp;rdquo; by Haruki Murakami &amp;ldquo;The Setting Sun&amp;rdquo; by Osamu Dazai 💡 Random Facts I lived in Beijing, China for 5 years but never visited the Great Wall and the Forbidden City.</description>
+    </item>
+    
+    <item>
       <title>Running Python Files: Module vs Script</title>
       <link>http://localhost:1313/posts/tools/command-line/</link>
       <pubDate>Tue, 03 Dec 2024 11:52:29 -0500</pubDate>
@@ -32,17 +42,6 @@ def main(): # Main execution code pass if __name__ == &amp;#34;__main__&amp;#34;
       
       <guid>http://localhost:1313/posts/web-development/front-end-storage/</guid>
       <description>SessionStorage vs LocalStorage LocalStorage Purpose: Persistent web storage Function: Stores data with no expiration date Persists across browser sessions Shared across browser tabs Key Features: Data survives browser restarts ~5-10MB storage capacity Same-origin access only Accessible via JavaScript SessionStorage Purpose: Temporary web storage Function: Stores data for one browser session Clears when tab is closed Isolated per browser tab Key Features: Tab-specific storage ~5-10MB storage capacity Temporary data persistence Same-origin access only Relationship Common Traits:</description>
-    </item>
-    
-    <item>
-      <title>Miscellaneous</title>
-      <link>http://localhost:1313/posts/miscellaneous/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/miscellaneous/</guid>
-      <description>This is a sample post intended to test the followings:
-Default hero image. Different shortcodes. Alert The following alerts are available in this theme.
-This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert with type=&amp;quot;danger&amp;quot;. This is sample alert with type=&amp;quot;warning&amp;quot;. This is sample alert with type=&amp;quot;info&amp;quot;. This is sample alert with type=&amp;quot;dark&amp;quot;. This is sample alert with type=&amp;quot;primary&amp;quot;. This is sample alert with type=&amp;quot;secondary&amp;quot;. Image A sample image without any attribute.</description>
     </item>
     
     

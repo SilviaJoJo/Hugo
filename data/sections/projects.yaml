@@ -78,6 +78,13 @@ projects:
   summary: A course on the principles of data structures.
   tags: ["online courses", "java", "data structures"]
 
+- name: Berkeley Data100
+  repo: https://github.com/SilviaJoJo/Data100
+  role: Student
+  timeline: "September 2024 - Present"
+  summary: A course on the principles of data analysis.
+  tags: ["online courses", "python", "data analysis"]
+
 - name: Harvard CS50
   repo: https://github.com/SilviaJoJo/CS50x
   role: Student
